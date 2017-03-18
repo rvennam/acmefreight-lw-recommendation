@@ -124,8 +124,8 @@ function filterRetailers(retailers, event, callback) {
 
   const filtered = [];
   const stormLocation = new GeoPoint(
-    event.lat,
-    event.lon+40);
+    41.2,
+    -77.19);
 
   retailers.forEach((retailer) => {
     // get gps coordinate
